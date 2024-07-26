@@ -11,8 +11,8 @@
                 "${workspaceFolder}/src/server.cpp",
                 "-o",
                 "${workspaceFolder}/main.exe",
-                "-std=c++11",
-                "-lws2_32"
+                "-std=c++11",  // Specify C++11 standard
+                "-lws2_32"     // Link with Winsock library
             ],
             "group": {
                 "kind": "build",
